@@ -25,43 +25,35 @@ export default function About() {
       {activeLocale == "zh" ? (
         // <p>{t("desc")}</p> //这样一段话没法分段
         <div className="flex flex-col gap-2">
-          <div>我是一个热爱学习、思考且富有韧性的人。</div>
+          <div>我是一个热爱生活，热爱思考，思维开拓的人</div>
           <div>
-            从2019年到2023年，我在美丽的珞珈山武汉大学度过了四个春夏秋冬。在这段时间里，我开启了前端开发的大门，并在学校的大数据研究院和蔚来公司分别实习了半年。作为一名转码选手，我遇到了许多困难，也曾有过自我怀疑的时刻。但回顾过去，我发现是对自我提升的热爱以及与团队共同奋斗的激情支撑着我坚持下来。
+            从2019年结束高中生活以后，我渐渐的开始对未来进行思考，什么是我热爱的？什么是我擅长的？于是带着这种疑惑，我来到了山东理工大学进行了四年的金融专业的学习。通过2019-2023这四年的学习生活，我不仅收获了专业知识还收获了友谊。
           </div>
           <div>
-            本科毕业后，我来到了苏格兰的海边小镇，在圣安德鲁斯大学度过了一段难忘的时光。在这里，我养成了规律运动和健康饮食的好习惯，并结识了许多志同道合的朋友。我甚至在当地的意大利餐馆当厨师，并在一家酒店担任早餐服务员，丰富了我的人生体验。
+            在本科结束后，我认为我仍需要对世界继续探索，带着对世界的憧憬和知识的渴望，我来到了英国圣安德鲁斯大学进行为期一年的学习生活。我的专业是健康数据科学，在这一年我被健康行业的兴趣不断增加，通过数据分析辅助，对各种医疗数据加以分析，探求对人体的不通过影响，我认为这对未来医疗发展带来积极影响。这也成为我未来希望深耕的领域。
           </div>
           <div>
-            适应异国他乡的生活并非易事，但这段经历让我学会了从逆境、冲突、失败甚至积极事件中快速恢复的能力。我坚信，坚韧、专注和自信是我最重要的品质之一。
+            对任何一个事物，一个行业的热爱都不是靠自己一个人可以维系，加入一个团队，将自己的热爱与团队的总目标向匹配才能碰撞出更大的火花。
           </div>
 
           <div>
-            目前，我在准备2025年秋招。同时在自己的 小红书 、
-            <a
-              className="underline"
-              href="https://blog-joy-peng.netlify.app/"
-              target="_blank"
-            >
-              个人博客
-            </a>
-            和 b站 记录技术和生活。
+            所以，未知领域的探索，我目前在积极准备求职。
           </div>
         </div>
       ) : (
         <>
           <p className="mb-3">
-            My journey into programming kicked off during my undergrad in
+            My journey into data science kicked off during my undergrad in
             <span className="font-medium italic">
               {" "}
-              Digital Publishing
+              Finance
             </span> at {}
             <span className="italic underline">
               <a
                 href="https://en.wikipedia.org/wiki/Wuhan_University"
                 target="_blank"
               >
-                Wuhan University.
+                Shandong University of Technology.
               </a>
             </span>{" "}
             As a freshman, I got my feet wet with the basics of computer
